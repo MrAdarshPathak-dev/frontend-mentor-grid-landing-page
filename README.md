@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - GitHub Repository: https://github.com/MrAdarshPathak-dev/frontend-mentor-grid-landing-page
-- Live Site: Add your live site URL here
+- Live Site: live site URL
 
 ## My Process
 
