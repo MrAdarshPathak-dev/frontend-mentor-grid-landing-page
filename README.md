@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - GitHub Repository: https://github.com/MrAdarshPathak-dev/frontend-mentor-grid-landing-page
-- Live Site: live site URL
+- Live Site: comming soon
 
 ## My Process
 
@@ -30,9 +30,8 @@ Users should be able to:
 - CSS3
 - CSS Grid
 - Flexbox
-- CSS custom properties
 - Responsive design
-- JavaScript-free navigation using CSS `:target`
+- CSS `:target` for the navigation menu
 
 ### What I Learned
 
