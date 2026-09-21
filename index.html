@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+
+	<title>Frontend Mentor | Grid landing page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- Nav -->
+		<nav class="nav-bar">
+			<div class="logo-container">
+				<img src="assets/images/favicon-32x32.png" alt="logo-img" class="white-dot">
+				<span class="logo-text">Bridge Collective</span>
+			</div>
+			<!-- menu open btn -->
+
+			<a href="#nav-links" class="menu-icon" tabindex="0">
+				<img src="assets/images/icon-menu.svg" alt="menu-icon">
+			</a>
+				<div class="nav-links" id="nav-links">
+					<!-- close btn -->
+					<a href="#" class="close-icon"><img src="assets\images\icon-close.svg" alt="close-icon"></a>
+					<a href="#hero-content">About</a>
+					<a href="#">Our Work</a>
+					<a href="#">Partners</a>
+					<a href="#">Annual Report</a>
+					<a href="#" class="btn-donate">Donate</a>
+				</div>
+
+		</nav>
+
+
+		<!-- Hero -->
+		<main class="grid-container">
+
+			<!-- grid item 1 (hero content)-->
+			<div class="hero-content" id="hero-content">
+				<h1 class="hero-header">A classroom for every child.</h1>
+				<p class="hero-body">We fund the schools, train the teachers, and measure what works —
+					so every child we reach today becomes a graduate tomorrow.</p>
+			</div>
+
+
+			<!--  grid item 2(stat-card) -->
+			<!-- stat-card 1 -->
+
+			<div class="stat-card">
+				<!-- stat card 1 header section -->
+				<div class="stat-header">
+					<img src="assets\images\icon-sparkle.svg" alt="icon-sparkle" class="icon">
+					<span class="stat-num">2.4M</span>
+				</div>
+				<!-- stat card 1 body section -->
+				<div class="stat-body">
+					<h3>Students reached</h3>
+					<p>Across 31 countries since 2011.</p>
+				</div>
+			</div>
+
+			<!-- stat-card 2 -->
+			<div class="stat-card no-right-col">
+
+				<!-- stat card 2 header section -->
+				<div class="stat-header">
+					<img src="assets\images\icon-plus.svg" alt="icon-plus" class="icon">
+					<span class="stat-num">1284</span>
+				</div>
+				<!-- stat card 2 body section -->
+				<div class="stat-body">
+					<h3>Schools partnered</h3>
+					<p>In 14 countries, from Kenya to Guatemala.</p>
+				</div>
+			</div>
+
+			<!-- stat-card 3 -->
+
+			<div class="stat-card">
+				<!-- stat card 3 header section -->
+				<div class="stat-header">
+					<img src="assets\images\icon-arrow-right.svg" alt="icon-arrow-right" class="icon">
+					<span class="stat-num">38K</span>
+				</div>
+				<!-- stat card 3 body section -->
+				<div class="stat-body">
+					<h3>Teachers trained</h3>
+					<p>Equipped with modern tools and methodology.</p>
+				</div>
+			</div>
+
+			<!-- stat-card 4 -->
+
+			<div class="stat-card no-right-col">
+
+				<!-- stat card 4 header section -->
+				<div class="stat-header">
+					<img src="assets\images\icon-trending-up.svg" alt="icon-trending-up" class="icon">
+					<span class="stat-num">3.1×</span>
+				</div>
+				<!-- stat card 4 body section -->
+				<div class="stat-body">
+					<h3>Graduation lift</h3>
+					<p>Partner schools outperform national averages 3x.</p>
+				</div>
+			</div>
+		</main>
+
+
+		<!-- Footer -->
+		<footer class="footer">
+			<span>© 2026 Bridge Collective</span>
+			<span>Registered charity 12345678</span>
+		</footer>
+
+
+	</div>
+</body>
+
+</html>
